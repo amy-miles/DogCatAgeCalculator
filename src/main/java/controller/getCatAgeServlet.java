@@ -10,10 +10,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import model.CatAgeConverter;
-import model.DogAgeConverter;
 
 /**
- * Servlet implementation class getCatAgeServlet
+ * @author Amy Miles
+ * CIS 175 - Fall 2023
+ * Sep 18, 2023
  */
 @WebServlet("/getCatAgeServlet")
 public class getCatAgeServlet extends HttpServlet {

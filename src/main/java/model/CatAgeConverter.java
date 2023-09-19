@@ -1,5 +1,10 @@
 package model;
 
+/**
+ * @author Amy Miles
+ * CIS 175 - Fall 2023
+ * Sep 18, 2023
+ */
 public class CatAgeConverter {
 	private final int FIRST_YEAR = 15;
 	private final int SECOND_YEAR = 9;

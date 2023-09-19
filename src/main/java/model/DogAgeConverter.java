@@ -1,7 +1,14 @@
 package model;
 
+/**
+ * @author Amy Miles
+ * CIS 175 - Fall 2023
+ * Sep 18, 2023
+ */
+
+
 public class DogAgeConverter {
-	
+	//private members
 	private final int FIRST_YEAR = 15;
 	private final int SECOND_YEAR = 9;
 	private final int SUB_YEARS = 4;
@@ -9,16 +16,27 @@ public class DogAgeConverter {
 	private int convertedAge;
 	
 	
+	/**
+	 * default no-arg constructor
+	 */
 	public DogAgeConverter() {
 		super();
 	}
 	
+	/**
+	 * Constructor with parameters
+	 * @param years user value of age of pet
+	 */
 	public DogAgeConverter(int years) {
 		super();
 		this.years = years;
-		convertAge(years);
+		convertAge(years);//call the function to convert to human years
 	}
 	
+	/**
+	 * Method to convert the user value of pet years to human years
+	 * @param years
+	 */
 	public void convertAge(int years) {
 		
 		if(years == 1) {

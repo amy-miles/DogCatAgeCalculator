@@ -22,13 +22,11 @@
 						<input type="text" name=dogAge size="5" /> 
 						<input type="submit" class="btn btn-outline-light btn-sm" value="Calculate" />
 					</form>
-
-
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- Jumbotron -->
+<!-- Jumbotron -->
 
 
 	
